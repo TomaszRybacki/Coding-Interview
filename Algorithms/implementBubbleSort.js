@@ -20,6 +20,7 @@ as input and returns an array of these integers in sorted order from least to gr
 */
 
 function bubbleSort(array) {
+  // change code below this line
   for (let i = 0; i < array.length - 1; i += 1) {
     if (array[i] > array[i + 1]) {
       const smallerNumber = array[i + 1];
@@ -35,7 +36,7 @@ function bubbleSort(array) {
       bubbleSort(array);
     }
   }
-
+  // change code above this line
   return array;
 }
 
